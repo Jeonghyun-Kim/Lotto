@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		798F74E5C30734EBABF47443 /* Pods_Lotto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94364F60C757BE4DEE7A61C3 /* Pods_Lotto.framework */; };
 		9542C8311D94F78800CC8C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542C8301D94F78800CC8C6C /* AppDelegate.swift */; };
 		9542C8331D94F78800CC8C6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542C8321D94F78800CC8C6C /* ViewController.swift */; };
 		9542C8361D94F78800CC8C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9542C8341D94F78800CC8C6C /* Main.storyboard */; };
@@ -14,6 +15,16 @@
 		9542C83B1D94F78800CC8C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9542C8391D94F78800CC8C6C /* LaunchScreen.storyboard */; };
 		9542C8461D94F78800CC8C6C /* LottoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542C8451D94F78800CC8C6C /* LottoTests.swift */; };
 		9542C8511D94F78900CC8C6C /* LottoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542C8501D94F78900CC8C6C /* LottoUITests.swift */; };
+		9580E8EA1D94F94D001FC893 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580E8E01D94F94D001FC893 /* Award.swift */; };
+		9580E8EB1D94F94D001FC893 /* balls in Resources */ = {isa = PBXBuildFile; fileRef = 9580E8E11D94F94D001FC893 /* balls */; };
+		9580E8EC1D94F94D001FC893 /* banned_42.png in Resources */ = {isa = PBXBuildFile; fileRef = 9580E8E21D94F94D001FC893 /* banned_42.png */; };
+		9580E8ED1D94F94D001FC893 /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 9580E8E31D94F94D001FC893 /* flash.png */; };
+		9580E8EE1D94F94D001FC893 /* GenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580E8E41D94F94D001FC893 /* GenerateViewController.swift */; };
+		9580E8EF1D94F94D001FC893 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9580E8E51D94F94D001FC893 /* launchScreen.png */; };
+		9580E8F01D94F94D001FC893 /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580E8E61D94F94D001FC893 /* Lotto.swift */; };
+		9580E8F11D94F94D001FC893 /* LottoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580E8E71D94F94D001FC893 /* LottoTableViewCell.swift */; };
+		9580E8F21D94F94D001FC893 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580E8E81D94F94D001FC893 /* Singleton.swift */; };
+		9580E8F31D94F94D001FC893 /* standards.png in Resources */ = {isa = PBXBuildFile; fileRef = 9580E8E91D94F94D001FC893 /* standards.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94364F60C757BE4DEE7A61C3 /* Pods_Lotto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lotto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9542C82D1D94F78800CC8C6C /* Lotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9542C8301D94F78800CC8C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9542C8321D94F78800CC8C6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,18 @@
 		9542C84C1D94F78800CC8C6C /* LottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9542C8501D94F78900CC8C6C /* LottoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoUITests.swift; sourceTree = "<group>"; };
 		9542C8521D94F78900CC8C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9580E8E01D94F94D001FC893 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		9580E8E11D94F94D001FC893 /* balls */ = {isa = PBXFileReference; lastKnownFileType = folder; path = balls; sourceTree = "<group>"; };
+		9580E8E21D94F94D001FC893 /* banned_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banned_42.png; sourceTree = "<group>"; };
+		9580E8E31D94F94D001FC893 /* flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash.png; sourceTree = "<group>"; };
+		9580E8E41D94F94D001FC893 /* GenerateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateViewController.swift; sourceTree = "<group>"; };
+		9580E8E51D94F94D001FC893 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
+		9580E8E61D94F94D001FC893 /* Lotto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
+		9580E8E71D94F94D001FC893 /* LottoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottoTableViewCell.swift; sourceTree = "<group>"; };
+		9580E8E81D94F94D001FC893 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		9580E8E91D94F94D001FC893 /* standards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = standards.png; sourceTree = "<group>"; };
+		CFDC7816244EC29C7A47FBFD /* Pods-Lotto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lotto/Pods-Lotto.release.xcconfig"; sourceTree = "<group>"; };
+		E606EB0505A35B31A602E168 /* Pods-Lotto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lotto/Pods-Lotto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798F74E5C30734EBABF47443 /* Pods_Lotto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CE969FDD3E040854FC7F13D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E606EB0505A35B31A602E168 /* Pods-Lotto.debug.xcconfig */,
+				CFDC7816244EC29C7A47FBFD /* Pods-Lotto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79354A69F857F923CF0CFD04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94364F60C757BE4DEE7A61C3 /* Pods_Lotto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9542C8241D94F78800CC8C6C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				9542C8441D94F78800CC8C6C /* LottoTests */,
 				9542C84F1D94F78900CC8C6C /* LottoUITests */,
 				9542C82E1D94F78800CC8C6C /* Products */,
+				4CE969FDD3E040854FC7F13D /* Pods */,
+				79354A69F857F923CF0CFD04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,16 @@
 			children = (
 				9542C8301D94F78800CC8C6C /* AppDelegate.swift */,
 				9542C8321D94F78800CC8C6C /* ViewController.swift */,
+				9580E8E01D94F94D001FC893 /* Award.swift */,
+				9580E8E11D94F94D001FC893 /* balls */,
+				9580E8E21D94F94D001FC893 /* banned_42.png */,
+				9580E8E31D94F94D001FC893 /* flash.png */,
+				9580E8E41D94F94D001FC893 /* GenerateViewController.swift */,
+				9580E8E51D94F94D001FC893 /* launchScreen.png */,
+				9580E8E61D94F94D001FC893 /* Lotto.swift */,
+				9580E8E71D94F94D001FC893 /* LottoTableViewCell.swift */,
+				9580E8E81D94F94D001FC893 /* Singleton.swift */,
+				9580E8E91D94F94D001FC893 /* standards.png */,
 				9542C8341D94F78800CC8C6C /* Main.storyboard */,
 				9542C8371D94F78800CC8C6C /* Assets.xcassets */,
 				9542C8391D94F78800CC8C6C /* LaunchScreen.storyboard */,
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9542C8551D94F78900CC8C6C /* Build configuration list for PBXNativeTarget "Lotto" */;
 			buildPhases = (
+				A397F561395FD353827D0692 /* [CP] Check Pods Manifest.lock */,
 				9542C8291D94F78800CC8C6C /* Sources */,
 				9542C82A1D94F78800CC8C6C /* Frameworks */,
 				9542C82B1D94F78800CC8C6C /* Resources */,
+				9BE6BFF3BEE38526459E9171 /* [CP] Embed Pods Frameworks */,
+				A6D6747F77016D335081100D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +292,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9580E8ED1D94F94D001FC893 /* flash.png in Resources */,
 				9542C83B1D94F78800CC8C6C /* LaunchScreen.storyboard in Resources */,
+				9580E8EC1D94F94D001FC893 /* banned_42.png in Resources */,
+				9580E8EF1D94F94D001FC893 /* launchScreen.png in Resources */,
+				9580E8F31D94F94D001FC893 /* standards.png in Resources */,
 				9542C8381D94F78800CC8C6C /* Assets.xcassets in Resources */,
 				9542C8361D94F78800CC8C6C /* Main.storyboard in Resources */,
+				9580E8EB1D94F94D001FC893 /* balls in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +319,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BE6BFF3BEE38526459E9171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lotto/Pods-Lotto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A397F561395FD353827D0692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D6747F77016D335081100D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lotto/Pods-Lotto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9542C8291D94F78800CC8C6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9542C8331D94F78800CC8C6C /* ViewController.swift in Sources */,
+				9580E8F21D94F94D001FC893 /* Singleton.swift in Sources */,
+				9580E8F01D94F94D001FC893 /* Lotto.swift in Sources */,
+				9580E8EE1D94F94D001FC893 /* GenerateViewController.swift in Sources */,
+				9580E8EA1D94F94D001FC893 /* Award.swift in Sources */,
+				9580E8F11D94F94D001FC893 /* LottoTableViewCell.swift in Sources */,
 				9542C8311D94F78800CC8C6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +451,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -358,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,6 +502,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -402,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,7 +530,9 @@
 		};
 		9542C8561D94F78900CC8C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E606EB0505A35B31A602E168 /* Pods-Lotto.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 62G5243WAS;
 				INFOPLIST_FILE = Lotto/Info.plist;
@@ -426,7 +545,9 @@
 		};
 		9542C8571D94F78900CC8C6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDC7816244EC29C7A47FBFD /* Pods-Lotto.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 62G5243WAS;
 				INFOPLIST_FILE = Lotto/Info.plist;
@@ -514,6 +635,7 @@
 				9542C8571D94F78900CC8C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9542C8581D94F78900CC8C6C /* Build configuration list for PBXNativeTarget "LottoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +644,7 @@
 				9542C85A1D94F78900CC8C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9542C85B1D94F78900CC8C6C /* Build configuration list for PBXNativeTarget "LottoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +653,7 @@
 				9542C85D1D94F78900CC8C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
